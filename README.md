@@ -13,7 +13,8 @@ Namely, there are:
 - model training;
 - hyperparameter tuning;
 - model evaluation and computation of several relevant metrics;
-- saving of the model as a serialized file.
+- saving of the model as a serialized file;
+- making predictions using the saved trained model. 
 
 Everything is as automated as possible: for instance, it is enough to insert the input data file and the target column name, and the notebook tries to automatically infer the correct ML task (*binary classification*, *multiclass classification*, *regression*).
 
